@@ -5,17 +5,7 @@
 #include "wifi_mqtt.h"
 
 static const char *TAG = "mqtt humidity sensor";
-.pio
-.vscode/.browse.c_cpp.db*
-.vscode/c_cpp_properties.json
-.vscode/launch.json
-.vscode/ipch
-.vscode
-test
-lib
-sdkconfig.esp32dev
-include/config.h
-include/README
+
 void app_main(void)
 {
     ESP_LOGI(TAG, "starting...");
