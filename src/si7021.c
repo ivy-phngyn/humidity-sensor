@@ -74,7 +74,7 @@ esp_err_t si7021_read_humidity(float *humidity)
     
     // read the data from SI7021 via I2C bus
     uint8_t data[2];
-    esp_err_t ret = si7021_register_read(s_dev_handle, MEASURE_RH_NHMM, data, 2);
+    esp_err_t ret = si7021_register_read(s_dev_handle, MEASURE_RH_NHMM, data, sizeof(data));
     if (ret != ESP_OK) return ret;
     
     // if the read was successful, then convert the measurement to relative humidity
