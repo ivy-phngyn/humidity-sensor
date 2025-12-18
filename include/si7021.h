@@ -6,7 +6,6 @@
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 #include <stdint.h>
-#include <stdio.h>
 
 #define SI7021_SENSOR_ADDR          0x40
 #define I2C_MASTER_TIMEOUT_MS       1000

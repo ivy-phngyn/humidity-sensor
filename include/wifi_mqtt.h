@@ -8,7 +8,6 @@
 #include "esp_netif.h"
 #include "mqtt_client.h"
 #include "freertos/event_groups.h"
-#include <string.h>
 
 #include "config.h"
 
